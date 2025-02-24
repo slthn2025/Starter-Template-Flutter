@@ -1,10 +1,9 @@
-
 # Starter Template Flutter
 
 A Flutter starter template with MVVM architecture, integrating Dio for networking, Provider for state management, Hive for local storage, and GetIt for dependency injection. Designed for scalable and maintainable application development.
 
-
 ## About
+
 A Flutter starter template with MVVM architecture that includes:
 
 - Dio for networking
@@ -20,6 +19,7 @@ A Flutter starter template with MVVM architecture that includes:
 - JSON Serialization for model parsing
 
 Perfect for scalable Flutter application development.
+
 ## Project Structure
 
     starter_template_flutter/
@@ -47,27 +47,39 @@ Perfect for scalable Flutter application development.
     │   ├── widgets/
     │   │   ├── example_widget.dart
     │── pubspec.yaml
+
 ## How To Use
+
 1. Clone the Repository
-```
-git clone https://github.com/slthn2025/starter_template_flutter.git
-cd starter_template_flutter
 
 ```
+git clone https://github.com/slthn2025/Starter-Template-Flutter.git
+cd Starter-Template-Flutter
+
+```
+
 2. Install Dependencies
+
 ```
 flutter pub get
 ```
+
 3. Generate Code
+
 ```
 flutter pub run build_runner build --delete-conflicting-outputs
 ```
+
 4. Run the Application
+
 ```
 flutter run
 ```
-##  Dependencies
+
+## Dependencies
+
 Ensure pubspec.yaml contains the following dependencies:
+
 ```
 dependencies:
   flutter:
@@ -88,6 +100,7 @@ dev_dependencies:
   hive_generator: ^2.0.1
 
 ```
+
 ## Features
 
 - MVVM Architecture
@@ -98,8 +111,6 @@ dev_dependencies:
 - Logging with Logger
 - JSON Serialization
 
-
 ## Contributing
 
 Feel free to create a Pull Request if you want to contribute!
-
