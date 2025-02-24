@@ -52,7 +52,7 @@ Perfect for scalable Flutter application development.
 ```
 git clone https://github.com/slthn2025/starter_template_flutter.git
 cd starter_template_flutter
-}
+
 ```
 2. Install Dependencies
 ```
